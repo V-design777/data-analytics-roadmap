@@ -8,9 +8,9 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="container">
-            <div class="logo">📊 Data Analytics Roadmap</div>
-            <ul class="nav-links">
+        <div class="nav-container">
+            <div class="logo">📊 DataAnalytics</div>
+            <ul class="nav-menu">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="curriculum.html">Curriculum</a></li>
                 <li><a href="roadmap.html">Roadmap</a></li>
@@ -20,72 +20,89 @@
         </div>
     </nav>
 
-    <section class="hero">
+    <header class="hero">
         <div class="hero-content">
             <h1>Master Data Analytics</h1>
-            <p>From Beginner to Advanced: Your Complete Roadmap to a ₹1 Lakh Package Job</p>
-            <div class="hero-buttons">
-                <a href="curriculum.html" class="btn btn-primary">Start Learning</a>
-                <a href="roadmap.html" class="btn btn-secondary">View Roadmap</a>
-            </div>
+            <p>From Beginner to Advanced: Your Path to a ₹1 Lakh+ Package Job</p>
+            <button class="cta-button" onclick="document.getElementById('overview').scrollIntoView({behavior: 'smooth'})">Get Started</button>
         </div>
-    </section>
+    </header>
 
-    <section class="overview">
+    <section id="overview" class="overview">
         <div class="container">
-            <h2>Why Learn Data Analytics?</h2>
-            <div class="cards">
-                <div class="card">
-                    <h3>💼 High Demand</h3>
-                    <p>Data analysts are among the most sought-after professionals with competitive salaries starting at ₹3-4 lakhs and reaching ₹12+ lakhs.</p>
+            <h2>Welcome to Your Data Analytics Journey</h2>
+            <p>This comprehensive roadmap is designed to take you from zero to hero in data analytics. Whether you're a complete beginner or looking to advance your skills, we've got you covered.</p>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>6-12 Months</h3>
+                    <p>Typical learning duration</p>
                 </div>
-                <div class="card">
-                    <h3>📈 Career Growth</h3>
-                    <p>Clear career progression from Data Analyst to Senior Analyst to Analytics Manager with increasing responsibilities and compensation.</p>
+                <div class="stat-card">
+                    <h3>₹1,00,000+</h3>
+                    <p>Target package</p>
                 </div>
-                <div class="card">
-                    <h3>🎯 Diverse Industries</h3>
-                    <p>Opportunities across tech, finance, healthcare, e-commerce, and more sectors globally.</p>
+                <div class="stat-card">
+                    <h3>50+ Skills</h3>
+                    <p>To master</p>
                 </div>
-                <div class="card">
-                    <h3>🚀 Future-Proof Skills</h3>
-                    <p>Data is the new oil. These skills are relevant across industries and will remain in high demand.</p>
+                <div class="stat-card">
+                    <h3>100% Free</h3>
+                    <p>Resources included</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="stats">
+    <section class="phases">
         <div class="container">
-            <div class="stat-box">
-                <h4>6-12 Months</h4>
-                <p>Average time to become job-ready</p>
-            </div>
-            <div class="stat-box">
-                <h4>₹1,00,000+</h4>
-                <p>Package range for experienced analysts</p>
-            </div>
-            <div class="stat-box">
-                <h4>95%+</h4>
-                <p>Placement rate for skilled professionals</p>
-            </div>
-            <div class="stat-box">
-                <h4>40+ Skills</h4>
-                <p>You'll master during this journey</p>
+            <h2>Learning Phases</h2>
+            <div class="phase-grid">
+                <div class="phase-card">
+                    <div class="phase-number">1</div>
+                    <h3>Foundations (Month 1-2)</h3>
+                    <p>Excel, SQL Basics, Statistics Fundamentals, Data Types</p>
+                    <span class="badge beginner">Beginner</span>
+                </div>
+                <div class="phase-card">
+                    <div class="phase-number">2</div>
+                    <h3>Core Skills (Month 3-4)</h3>
+                    <p>Advanced SQL, Python/R, Data Visualization, EDA</p>
+                    <span class="badge intermediate">Intermediate</span>
+                </div>
+                <div class="phase-card">
+                    <div class="phase-number">3</div>
+                    <h3>Advanced (Month 5-6)</h3>
+                    <p>Machine Learning, Predictive Modeling, Big Data, Cloud Tools</p>
+                    <span class="badge advanced">Advanced</span>
+                </div>
+                <div class="phase-card">
+                    <div class="phase-number">4</div>
+                    <h3>Expert (Month 7-12)</h3>
+                    <p>Projects, Portfolio Building, Interview Prep, Job Applications</p>
+                    <span class="badge expert">Expert</span>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="cta">
+    <section class="cta-section">
         <div class="container">
-            <h2>Ready to Start Your Journey?</h2>
-            <p>Follow our comprehensive curriculum and roadmap to reach your goal</p>
-            <a href="curriculum.html" class="btn btn-large">Explore Full Curriculum</a>
+            <h2>Ready to Transform Your Career?</h2>
+            <p>Follow our structured roadmap and secure your ₹1 lakh+ package job</p>
+            <a href="roadmap.html" class="cta-button large">View Complete Roadmap</a>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2026 Data Analytics Roadmap. Created for aspiring data professionals.</p>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Data Analytics Roadmap. Created by V-design777 | Free Learning Resources</p>
+            <div class="social-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
